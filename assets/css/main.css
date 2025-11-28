@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 6000px;
+}
 a{
     text-decoration: none;
 }
@@ -11,6 +14,8 @@ ul{
 }
 .header{
     padding: 57px 0;
+    position: fixed;
+    width: 100%;
 }
 .container{
     width: calc(100% - 320px);
@@ -29,6 +34,12 @@ ul{
     color: #0d0e43;
     font-size: 16px;
     font-family: "Lato", sans-serif;
+    transition-property : color ;
+    transition-duration : 1s ;
+}
+.header a:hover{
+    color : orange;
+    font-size: 25px;
 }
 .header .homeTag{
     color: #FB2E86;
