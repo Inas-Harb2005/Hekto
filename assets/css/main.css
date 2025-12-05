@@ -52,6 +52,11 @@ body{
     }
 }
 /* end header */
+/*start space*/
+.space{
+    color:white
+}
+/*end space*/
 /* start footer */
 .footer{
     background-color: #EEEFFB;
