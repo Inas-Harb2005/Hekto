@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task 2 in CSS</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- base file -->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
 <body>
         <div class="header">
             <div class="container">
+                <div class="row">
                 <div class="logo">
                     <a href="#">
                         <img src="./assets/image/hekto_logo.svg" />
@@ -47,7 +58,100 @@
                         </button>
                     </form>
                 </div>
+
+                <svg class="bar" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"/></svg>
            </div>
         </div>
+
+        <div class="space">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores omnis, sint accusamus dignissimos rerum esse porro ipsa illum? Impedit officiis incidunt, cumque quis, dolorum esse ut enim eligendi a ea voluptatibus tenetur dolore accusamus cum illo ipsa nihil optio consequatur expedita, unde ullam magnam dolor iusto eveniet? Saepe nisi assumenda consequatur iure possimus voluptate alias impedit tempora maiores nihil? Incidunt quas commodi autem sunt laboriosam. Tempora, inventore assumenda? Asperiores consequuntur excepturi, vitae dolorem labore blanditiis voluptatum nulla. Enim dolorum hic consequatur ducimus, quod repellat aliquid, rem non eos id repudiandae alias officiis accusamus numquam ratione odit! Culpa eos earum, sit blanditiis architecto eveniet aliquid illo cumque cum similique eaque unde aliquam porro dignissimos minima nulla iure, soluta amet error quibusdam adipisci et dolorem accusamus inventore? Corporis facilis omnis ad fuga. Sunt obcaecati dolor numquam maiores voluptas libero nisi ad aliquid, deleniti expedita nihil consequatur quibusdam omnis animi dolorem delectus vel rerum aliquam quia dolore blanditiis ut possimus reiciendis cum. Laboriosam assumenda ad adipisci corrupti omnis harum provident obcaecati beatae cupiditate autem eos ex, deserunt debitis saepe tenetur quaerat amet libero atque impedit fugiat? Vero quidem dolorum esse, magnam ducimus saepe sunt eaque iusto libero aliquam dicta commodi. Deserunt, ut cupiditate!
+        </div>
+
+        <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="left-side d_flex flex_direction">
+                    <img src="./assets/image/hekto_logo.svg"/>
+                    <div class="search">
+                    <form>
+                        <input type="email" placeholder="Enter Email Address"/>
+                        <button type="submit" class="btn">Sign Up</button>
+                    </form>
+                    </div>
+                    <div class="address-info">
+                        <h2>Contact Info</h2>
+                        <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="row">
+                        <div class="footer-item d_flex flex_direction ">
+                            <h2>Catagories</h2>
+                                    <ul class="d_flex flex_direction gap-2">
+                                        <li>
+                                            <a href="#">Laptops & Computers</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cameras & Photography</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Smart Phones & Tablets</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Video Games & Consoles</a>
+                                        </li>
+                                        <li>
+                                                <a href="#">Waterproof Headphones</a>
+                                        </li>
+                                    </ul>
+                        </div>
+                        <div class="footer-item d_flex flex_direction ">
+                            <h2>Customer Care</h2>
+                                    <ul class="d_flex flex_direction gap-2">
+                                        <li>
+                                            <a href="#">My Account</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Discount</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Returns</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Orders History</a>
+                                        </li>
+                                        <li>
+                                                <a href="#">Order Tracking</a>
+                                        </li>
+                                    </ul>
+                        </div>
+                        <div class="footer-item d_flex flex_direction ">
+                            <h2>Pages</h2>
+                                    <ul class="d_flex flex_direction gap-2">
+                                        <li>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Browse the Shop</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Category</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pre-Built Pages</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Visual Composer Elements</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">WooCommerce Pages</a>
+                                        </li>
+                                    </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
