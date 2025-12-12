@@ -35,6 +35,7 @@ body{
 .search button{
     border: none;
     background-color: #FB2E86;
+    color:white;
     padding: 8px 13px;
 }
 .header .bar{
@@ -70,6 +71,7 @@ body{
 }
 .shop-btn{
     background-color:#FB2E86;
+    color: white;
 }
 /* end newsletter*/
 /* start footer */
