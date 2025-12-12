@@ -1,11 +1,9 @@
-
 body{
-    height: 6000px;
+    /*height: 6000px;*/
     font-family: var(--mainFont);
 }
 .header{
     padding: 57px 0;
-    position: fixed;
     width: 100%;
 }
 .header ul{
@@ -16,13 +14,13 @@ body{
 .list a{
     color: #0d0e43;
     font-size: 16px;
-    transition-property : color ;
-    transition-duration : 1s ;
+    /*transition-property : color ;
+    transition-duration : 1s ;*/
 }
-.header a:hover{
-    color : orange;
+/* .header a:hover{
+    color : orange; 
     font-size: 25px;
-}
+} */
 .header .homeTag{
     color: #FB2E86;
 }
@@ -52,11 +50,28 @@ body{
     }
 }
 /* end header */
+
 /*start space*/
 .space{
     color:white
 }
 /*end space*/
+/* start newsletter*/
+.newsletter{
+    background-image: url('../image/newsletter.webp');
+    padding: 175px 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+.newsletter h2{
+    margin-bottom: 30px;
+    color: #151875;
+    font-size: 35px;
+}
+.shop-btn{
+    background-color:#FB2E86;
+}
+/* end newsletter*/
 /* start footer */
 .footer{
     background-color: #EEEFFB;
